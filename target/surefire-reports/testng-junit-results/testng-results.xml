@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="36364" started-at="2017-11-03T12:26:16Z" finished-at="2017-11-03T12:26:52Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="36364" started-at="2017-11-03T12:26:16Z" finished-at="2017-11-03T12:26:52Z">
+      <class name="javaJava.DroppableTest">
+        <test-method status="PASS" signature="dragAndDrop() throws java.lang.Exception" name="dragAndDrop" duration-ms="14931" started-at="2017-11-03T13:26:37Z" finished-at="2017-11-03T13:26:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDrop -->
+      </class> <!-- javaJava.DroppableTest -->
+      <class name="javaJava.DatePickerTest">
+        <test-method status="PASS" signature="selectData()" name="selectData" duration-ms="19639" started-at="2017-11-03T13:26:16Z" finished-at="2017-11-03T13:26:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectData -->
+      </class> <!-- javaJava.DatePickerTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

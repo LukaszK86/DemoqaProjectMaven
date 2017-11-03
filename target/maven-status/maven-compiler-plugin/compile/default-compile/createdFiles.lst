@@ -1,0 +1,12 @@
+Pages\MainPage.class
+Pages\FramesAndWindowsPage.class
+Pages\RegistrationPage$MaritalStatus.class
+Pages\DatePicker\DatePickerPage.class
+Pages\Menus\SideMenu.class
+Pages\Menus\TopMenu.class
+Pages\RegistrationPage$Hobby.class
+Pages\RegistrationPage.class
+Pages\RegistrationRandomGenerator.class
+Pages\DroppablePage.class
+Pages\DatePicker\DatePickerData.class
+Pages\SliderPage.class
