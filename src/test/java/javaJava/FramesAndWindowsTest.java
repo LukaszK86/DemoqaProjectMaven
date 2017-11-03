@@ -15,15 +15,15 @@ public class FramesAndWindowsTest extends BaseTest {
         String winHandleBefore = driver.getWindowHandle();
         FramesAndWindowsPage framesAndWindowsPage = PageFactory.initElements(driver, FramesAndWindowsPage.class);
         framesAndWindowsPage.clickNewBrowserTab();
-        for (String winHandle : driver.getWindowHandles()) {
-            driver.switchTo().window(winHandle);
-        }
+        String secondWindow = driver.getWindowHandle();
 
         TopMenu topMenu = PageFactory.initElements(driver, TopMenu.class);
         topMenu.clickHome();
         driver.switchTo().window(winHandleBefore);
         topMenu.clickHome();
         driver.close();
+        driver.switchTo().window(secondWindow);
+
         Assert.assertEquals(1, driver.getWindowHandles().size());
     }
 }

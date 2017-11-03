@@ -1,7 +1,7 @@
 package javaJava;
 
 import Pages.DatePicker.DatePickerData;
-import Pages.DatePicker.DatePickerPage;
+import Pages.Menus.DatePickerPage;
 import org.junit.Test;
 import org.openqa.selenium.support.PageFactory;
 

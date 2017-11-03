@@ -26,7 +26,7 @@ public class BaseTest {
         TakesScreenshot takesScreenshot = ((TakesScreenshot) driver);
         File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
         File destinationFile = new File(fileWithPath);
-     //   org.apache.commons.io.FileUtils.copyFile(sourceFile, destinationFile);
+       org.apache.commons.io.FileUtils.copyFile(sourceFile, destinationFile);
     }
 
     public static void analyzeLog() {
