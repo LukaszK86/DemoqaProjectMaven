@@ -6,23 +6,25 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.ArrayList;
+
 
 public class FramesAndWindowsTest extends BaseTest {
 
     @Test
     public void selectWindows() {
         driver.get("http://demoqa.com/frames-and-windows/");
-        String winHandleBefore = driver.getWindowHandle();
-        FramesAndWindowsPage framesAndWindowsPage = PageFactory.initElements(driver, FramesAndWindowsPage.class);
-        framesAndWindowsPage.clickNewBrowserTab();
-        String secondWindow = driver.getWindowHandle();
 
+        FramesAndWindowsPage framesAndWindowsPage = PageFactory.initElements(driver, FramesAndWindowsPage.class);
         TopMenu topMenu = PageFactory.initElements(driver, TopMenu.class);
-        topMenu.clickHome();
-        driver.switchTo().window(winHandleBefore);
+        framesAndWindowsPage.clickNewBrowserTab();
+
+        ArrayList<String> tabs2 = new ArrayList<String>(driver.getWindowHandles());
+        driver.switchTo().window(tabs2.get(1));
         topMenu.clickHome();
         driver.close();
-        driver.switchTo().window(secondWindow);
+        driver.switchTo().window(tabs2.get(0));
+        topMenu.clickHome();
 
         Assert.assertEquals(1, driver.getWindowHandles().size());
     }

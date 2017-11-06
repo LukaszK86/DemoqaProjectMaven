@@ -6,12 +6,12 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.logging.LogEntries;
 import org.openqa.selenium.logging.LogEntry;
 import org.openqa.selenium.logging.LogType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
-
 
 import java.io.File;
 import java.net.MalformedURLException;
@@ -22,11 +22,12 @@ public class BaseTest {
 
     public static WebDriver driver;
 
+
     public static void takesScreenshot(WebDriver driver, String fileWithPath) throws Exception {
         TakesScreenshot takesScreenshot = ((TakesScreenshot) driver);
         File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
         File destinationFile = new File(fileWithPath);
-       org.apache.commons.io.FileUtils.copyFile(sourceFile, destinationFile);
+        org.apache.commons.io.FileUtils.copyFile(sourceFile, destinationFile);
     }
 
     public static void analyzeLog() {
@@ -37,10 +38,14 @@ public class BaseTest {
     }
 
     @BeforeClass
-    public static void  beforeTest() throws MalformedURLException {
+    public static void beforeTest() throws MalformedURLException {
         DesiredCapabilities capabilities = DesiredCapabilities.chrome();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--start-maximized");
         capabilities.setPlatform(Platform.WINDOWS);
+        capabilities.merge(options);
         driver = new RemoteWebDriver(new URL("http://192.168.8.100:5556/wd/hub"), capabilities);
+
     }
 
     @AfterClass

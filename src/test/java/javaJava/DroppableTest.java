@@ -6,7 +6,6 @@ import org.junit.Test;
 import org.openqa.selenium.support.PageFactory;
 
 
-
 public class DroppableTest extends BaseTest {
 
 

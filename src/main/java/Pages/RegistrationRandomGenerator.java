@@ -1,9 +1,10 @@
 package Pages;
+
 import java.security.SecureRandom;
 import java.util.Random;
 
 
-public class RegistrationRandomGenerator  {
+public class RegistrationRandomGenerator {
 
     private static final String characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 

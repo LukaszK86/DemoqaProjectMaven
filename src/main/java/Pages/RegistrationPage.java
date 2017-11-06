@@ -1,4 +1,5 @@
 package Pages;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -77,7 +78,7 @@ public class RegistrationPage extends RegistrationRandomGenerator {
         chooseYear();
         typePhoneNumber("07007007000");
         typeUsername("Janek99" + RegistrationRandomGenerator.generateRandom(5));
-        typeMail(RegistrationRandomGenerator.generateRandom(5)+"@ahoj.pl");
+        typeMail(RegistrationRandomGenerator.generateRandom(5) + "@ahoj.pl");
         typeDescription("Wesoly, usmiechniety, uczy sie Javy");
         typePassword("Janek9999999");
         typeConfirmPassword("Janek9999999");
@@ -121,7 +122,7 @@ public class RegistrationPage extends RegistrationRandomGenerator {
     }
 
     public void typeUsername(String userName) {
-        this.userName=userName;
+        this.userName = userName;
         username.sendKeys(userName);
     }
 
@@ -169,6 +170,6 @@ public class RegistrationPage extends RegistrationRandomGenerator {
     }
 
     public void displayRegistrationMessage() {
-        System.out.println("Hello " + userName.toString() +" "  + registrationMessage.getText());
+        System.out.println("Hello " + userName.toString() + " " + registrationMessage.getText());
     }
 }
