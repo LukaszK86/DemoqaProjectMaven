@@ -44,7 +44,7 @@ public class BaseTest {
         options.addArguments("--start-maximized");
         capabilities.setPlatform(Platform.WINDOWS);
         capabilities.merge(options);
-        driver = new RemoteWebDriver(new URL("http://192.168.8.100:5556/wd/hub"), capabilities);
+        driver = new RemoteWebDriver(new URL("http://192.168.8.104:5556/wd/hub"), capabilities);
 
     }
 

@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d003cd3e-e922-4bfc-9815-3025f511e664" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/javaJava/SliderParametrizedTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Pages/DatePicker/DatePickerPage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/javaJava/SliderParameterizedTest.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Pages/SliderPage.class" afterPath="$PROJECT_DIR$/target/classes/Pages/SliderPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/javaJava/BaseTest.class" afterPath="$PROJECT_DIR$/target/test-classes/javaJava/BaseTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/javaJava/DatePickerTest.class" afterPath="$PROJECT_DIR$/target/test-classes/javaJava/DatePickerTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/javaJava/FramesAndWindowsTest.class" afterPath="$PROJECT_DIR$/target/test-classes/javaJava/FramesAndWindowsTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/javaJava/SliderTest.class" afterPath="$PROJECT_DIR$/target/test-classes/javaJava/SliderTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Pages/Menus/DatePickerPage.java" afterPath="$PROJECT_DIR$/src/main/java/Pages/Menus/DatePickerPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Pages/RegistrationPage.java" afterPath="$PROJECT_DIR$/src/main/java/Pages/RegistrationPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Pages/RegistrationRandomGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/Pages/RegistrationRandomGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Pages/SliderPage.java" afterPath="$PROJECT_DIR$/src/main/java/Pages/SliderPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/javaJava/BaseTest.java" afterPath="$PROJECT_DIR$/src/test/java/javaJava/BaseTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/javaJava/DroppableTest.java" afterPath="$PROJECT_DIR$/src/test/java/javaJava/DroppableTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/javaJava/FramesAndWindowsTest.java" afterPath="$PROJECT_DIR$/src/test/java/javaJava/FramesAndWindowsTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/javaJava/SliderTest.java" afterPath="$PROJECT_DIR$/src/test/java/javaJava/SliderTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/javaJava/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+            <state relative-caret-position="357">
+              <caret line="40" column="66" lean-forward="true" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,7 +71,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FramesAndWindowsPage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FramesAndWindowsPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Pages/FramesAndWindowsPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -128,12 +112,12 @@
         <option value="$PROJECT_DIR$/src/main/java/Pages/DatePicker/DatePickerPage.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Pages/Menus/DatePickerPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/javaJava/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/javaJava/SliderTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/SliderParametrizedTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/javaJava/FramesAndWindowsTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/javaJava/SliderParametrizedTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pages/SliderPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/javaJava/BaseTest.java" />
       </list>
     </option>
   </component>
@@ -144,7 +128,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="width" value="1600" />
     <option name="height" value="860" />
   </component>
@@ -523,7 +507,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1600" height="860" extended-state="1" />
+    <frame x="0" y="0" width="1600" height="860" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -779,26 +763,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/javaJava/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/javaJava/SliderParametrizedTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/javaJava/SliderTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -830,6 +794,26 @@
         <state relative-caret-position="68">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/javaJava/SliderParametrizedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/javaJava/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="40" column="66" lean-forward="true" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
